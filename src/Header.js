@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css'; // Assurez-vous d'ajouter ce fichier CSS
+import './App.css'; 
 
 const Header = ({ query, setQuery, handleSearch }) => {
     
