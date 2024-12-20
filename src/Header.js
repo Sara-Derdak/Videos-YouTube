@@ -6,7 +6,7 @@ const Header = ({ query, setQuery, handleSearch }) => {
     <header className="header">
       <div className="logo">
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png"
+          src="https://w7.pngwing.com/pngs/936/468/png-transparent-youtube-logo-youtube-logo-computer-icons-subscribe-angle-rectangle-airplane-thumbnail.png"
           alt="YouTube Logo"
           className="logo-img"
         />
@@ -31,7 +31,7 @@ const Header = ({ query, setQuery, handleSearch }) => {
 export function Footer() {
   return (
     <footer className="footer">
-      <p>© 2024 Videos YouTube. All rights reserved.</p>
+      <p>© 2024 Videos YouTube. Sara Derdak .</p>
       <div className="social-links">
         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
           Facebook
