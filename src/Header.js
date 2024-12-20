@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css'; 
 
 const Header = ({ query, setQuery, handleSearch }) => {
-    
   return (
     <header className="header">
       <div className="logo">
@@ -27,12 +26,12 @@ const Header = ({ query, setQuery, handleSearch }) => {
       </form>
     </header>
   );
-}
+};
 
-export function Footer(){
+export function Footer() {
   return (
     <footer className="footer">
-      <p>© 2024 Videos YouTube . All rights reserved.</p>
+      <p>© 2024 Videos YouTube. All rights reserved.</p>
       <div className="social-links">
         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
           Facebook
@@ -46,7 +45,6 @@ export function Footer(){
       </div>
     </footer>
   );
-};
-
+}
 
 export default Header;
