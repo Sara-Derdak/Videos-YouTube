@@ -9,7 +9,7 @@ const App = () => {
   const [query, setQuery] = useState('React tutorials');
   const [selectedVideo, setSelectedVideo] = useState(null);
   const [loading, setLoading] = useState(false);
-
+    
   const loadVideos = async (searchQuery) => {
     setLoading(true);
     try {
@@ -32,7 +32,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="container">
+    <div className={`container app `}>
       {/* Pass props to Header */}
       <Header query={query} setQuery={setQuery} handleSearch={handleSearch} />
 
